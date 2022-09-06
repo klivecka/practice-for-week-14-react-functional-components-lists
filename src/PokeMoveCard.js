@@ -6,7 +6,8 @@ const { id, move, type } = props
         <li className='poke-move-card'>
             <h3>Move {id}</h3>
             <h4 style={{padding:10}}>{move.toUpperCase()}</h4>
-            <h5>Type: {type}</h5></li>
+            <h5>Type: {type}</h5>
+            </li>
     )
 }
 
